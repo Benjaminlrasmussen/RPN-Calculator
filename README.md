@@ -5,3 +5,5 @@ RPN-Calculator
 - Supports addition, subtraction, multiplication, dividation, and modulus.
 - The program runs until it throws an exception or is force-stopped.
 - No errorhandling, feed it correct input only.
+
+![Picture of test result](https://github.com/Benjaminlrasmussen/RPN-Calculator/blob/master/test.PNG)
