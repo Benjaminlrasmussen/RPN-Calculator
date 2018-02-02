@@ -1,6 +1,6 @@
 package interfaces;
 
-public interface IOperator
+public interface Operator
 {
     public int calculate(int a, int b);
 }

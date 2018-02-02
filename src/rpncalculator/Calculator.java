@@ -1,13 +1,14 @@
 package rpncalculator;
 
+import interfaces.CustomStack;
 import java.util.HashMap;
-import java.util.Stack;
-import interfaces.IOperator;
+import interfaces.Operator;
+import stack.PathStack;
 
 public class Calculator
 {
-    private final Stack<Integer> results = new Stack();
-    private final HashMap<Character, IOperator> operators = new HashMap();
+    private final CustomStack<Integer> results = new PathStack();
+    private final HashMap<Character, Operator> operators = new HashMap();
     
     public Calculator()
     {
